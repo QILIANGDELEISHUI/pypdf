@@ -50,7 +50,7 @@ python pypdf.py
 ### Python 脚本
 如果您希望修改脚本以适应不同的 PDF 格式或提取其他信息，您可以直接编辑pypdf.py文件。
 ### 可执行文件
-如果您希望修改脚本以适应不同的 PDF 格式或提取其他信息，您可以直接编辑pypdf.py文件，然后使用PyInstaller重新编译可执行文件。
+如果您希望修改脚本以适应不同的 PDF 格式或提取其他信息，您可以直接编辑pypdf.py文件，然后使用PyInstaller重新编译可执行文件。编译后的可执行文件位于dist目录下。
 ```shell
  pyinstaller --onefile  --icon=pypdf.ico pypdf.py
 ```
