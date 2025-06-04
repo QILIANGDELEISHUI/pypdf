@@ -46,4 +46,11 @@ python pypdf.py
 可以从GitHub 仓库的源代码部分直接下载pypdf.py脚本。
 ### 可执行文件
 如上所述，适用于 Windows 的可执行文件（pypdf.exe）可从GitHub 仓库的发布页面下载。请确保选择适合您系统的版本。
-
+## 修改
+### Python 脚本
+如果您希望修改脚本以适应不同的 PDF 格式或提取其他信息，您可以直接编辑pypdf.py文件。
+### 可执行文件
+如果您希望修改脚本以适应不同的 PDF 格式或提取其他信息，您可以直接编辑pypdf.py文件，然后使用PyInstaller重新编译可执行文件。
+```shell
+ pyinstaller --onefile  --icon=pypdf.ico pypdf.py
+```
